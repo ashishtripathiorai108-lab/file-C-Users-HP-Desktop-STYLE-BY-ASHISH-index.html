@@ -1,0 +1,13 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    /* Hero Background */
+    background: url('../assets/images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* optional for cinematic parallax effect */
+}

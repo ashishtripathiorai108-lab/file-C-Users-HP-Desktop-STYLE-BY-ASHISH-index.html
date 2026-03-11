@@ -1,0 +1,109 @@
+.neon-text{
+font-size:70px;
+font-weight:bold;
+color:#fff;
+text-transform:uppercase;
+letter-spacing:4px;
+
+text-shadow:
+0 0 5px #00f7ff,
+0 0 10px #00f7ff,
+0 0 20px #00f7ff,
+0 0 40px #00c3ff,
+0 0 80px #00c3ff;
+
+animation: neonGlow 2s infinite alternate;
+}
+
+@keyframes neonGlow{
+from{
+text-shadow:
+0 0 5px #00f7ff,
+0 0 10px #00f7ff,
+0 0 20px #00f7ff,
+0 0 40px #00c3ff;
+}
+
+to{
+text-shadow:
+0 0 10px #00f7ff,
+0 0 20px #00f7ff,
+0 0 40px #00f7ff,
+0 0 80px #00c3ff,
+0 0 120px #00c3ff;
+}
+}body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#0b0b0f;
+color:white;
+overflow-x:hidden;
+}
+
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+padding:20px 8%;
+backdrop-filter:blur(12px);
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+}
+
+.hero-title{
+font-size:70px;
+letter-spacing:4px;
+}
+
+.hero-btn{
+padding:12px 30px;
+background:white;
+color:black;
+border-radius:30px;
+text-decoration:none;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+img{
+width:100%;
+border-radius:10px;
+}
+
+section{
+padding:120px 8%;
+text-align:center;
+}
+
+.glass{
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+},.2);
+border-radius:10px;
+padding:20px;
+}
